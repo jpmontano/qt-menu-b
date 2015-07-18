@@ -14,6 +14,7 @@ void MainWindow::showMenuBar()
 
     myMenuBar->clear();
     myMenuBar->setNativeMenuBar( true );
+    myMenuBar->setMinimumWidth( 8000 );
 
     // Menus
     QMenu *fileMenu = new QMenu( tr("&File") );
