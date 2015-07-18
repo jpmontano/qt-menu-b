@@ -6,7 +6,6 @@ MainWindow::MainWindow( QWidget *parent ) : QMainWindow( parent )
     setGeometry( 0, 0, 900, 600 );
 
     showMenuBar();
-
 }
 
 void MainWindow::showMenuBar()
